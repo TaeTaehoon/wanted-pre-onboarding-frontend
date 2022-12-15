@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+## 프로젝트 실행방법
+1. 처음 서비스에 접속하게 되면 로그인 페이지로 연결됩니다.
+2. 계정이 없는 경우에는 박스 하단 '회원가입하기'버튼을 눌러 회원가입페이지로 이동하여 회원가입 진행 후 서비스 이용이 가능합니다.
+3. 회원가입 시에는 이메일을 이용하여 가입이 가능합니다.
+4. 로그인을 성공적으로 진행하였을때 메인페이지로 이동하게 되고, 메인페이지에는 최상단에 todo 추가 섹션, 중앙에 todo list 섹션으로 나뉘어있습니다.
+5. 상단에서 todo 내용을 입력하고 우측 +버튼을 누르면 todo list 섹션에 해당 todo card가 추가되게 됩니다.
+6. todo card에는 todo 내용과 완료 여부가 표시되어 있으며 우측에 수정, 삭제 버튼이 존재합니다.
+7. 수정 버튼을 누를 경우 todo 내용을 수정할 수 있는 input이 생기고 원래 존재했던 수정, 삭제 버튼이 완료, 취소 버튼으로 대체됩니다. 완료버튼을 누를경우 input에 입력되어있는 내용으로 해당 todo의 내용이 수정되며 취소를 누르는 경우 input에 입력되어있는 내용과 관계 없이 todo의 내용은 변경되지 않으며 원래 todo card의 레이아웃으로 돌아오게 됩니다.
+8. 삭제 버튼을 누를 경우 새로고침 없이 바로 todo list에서 해당 todo card가 삭제됩니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 프로젝트 배포링크(데모영상 대체)
+https://thingkh-bk.shop/ (22.12.15~22.12.19까지 배포 예정)
